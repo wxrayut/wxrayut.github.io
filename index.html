@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="x-icon" href="assets/icon.png">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>WXR4YUT</title>
+</head>
+<body>
+    <header id="Home">
+        <div class="container">
+            <nav class="navbar">
+                <div class="logo">
+                    <a href="#">WXR4YUT.</a>
+                </div>
+                <ul class="menu__items">
+                    <li class="menu__list"><a href="#home">Home</a></li>
+                    <li class="menu__list"><a href="#about">About</a></li>
+                    <li class="menu__list"><a href="#contact-me">Contact Me</a></li>
+                </ul>
+            </nav>
+            <div class="header-banner">
+                <div class="header-text">
+                    <!-- <p>Software Engineer</p> -->
+                    <h1>Hi, I'm <span>Tik</span><br>From Thailand.</h1>
+                    <div class="music-player">
+                        <h1>Shortcut To Heaven</h1>
+                        <p>lullaboy</p>
+                        <audio id="song">
+                            <source src="script/playlist/lullaboy - Shortcut To Heaven.mp3" tpye="audio/mpeg">     
+                        </audio>
+                        <input type="range" value="0" id="progress">
+                        <div class="controls">
+                            <div><i class="fa-solid fa-angle-left" id="prevBtn"></i></i></div>
+                            <div onclick="toggleAudio()"><i class="fa-solid fa-play" id="ctrl-icon"></i></div>
+                            <div><i class="fa-solid fa-angle-right" id="nextBtn"></i></div>
+                        </div>
+                    </div>
+                </div>
+                <img src="assets/me.jpg" alt="me">
+            </div>
+        </div>
+        <br>
+    </header>
+    <section id="about">
+        <div class="container">
+            <div class="about-me">
+                <h1 class="about-me-h1">About Me</h1>
+                <div class="card-about-me">
+                    <h2>Name : <span class="about-me-span">Warayut Phayom</span></h2>
+                </div>
+                <div class="card-about-me">
+                    <h2>Nickname : <span class="about-me-span">Tik</span></h2>
+                </div>
+                <div class="card-about-me">
+                    <h2>Age : <span class="about-me-span">19</span></h2>
+                </div>
+                <div class="card-about-me">
+                    <h2>MBTI : <span class="about-me-span">N / A</span></h2>
+                </div>
+                <div class="card-about-me">
+                    <h2>Programing Skills : <span class="about-me-span">Html, CSS, JavaScript, Python, C#</span></h2>
+                </div>
+                <div class="card-about-me">
+                    <h2>My goal : <span class="about-me-span">Software Engineer</span></h2>
+                </div>
+                <div class="card-about-me">
+                    <h2><span class="about-me-span about-me-span-1">แม่มึงตาย. . .</span></h2>
+                </div>
+                <!-- <div class="card-about-me">
+                    <h2><span class="about-me-span">I was the last one left back then, and that's how it's always been till now.</span></h2>
+                </div> -->
+            </div>
+        </div>
+    </section>
+    <footer id="footer">
+        <div class="waves">
+            <div class="wave" id="wave1"></div>
+            <div class="wave" id="wave2"></div>
+            <div class="wave" id="wave3"></div>
+            <div class="wave" id="wave4"></div>
+        </div>
+        <p id="contact-me">Contact & Follow</p>
+        <ul class="social__icon">
+            <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+            <li><a href="https://open.spotify.com/user/31czxw4uhl2mfka5scobgk5ubdz4" target="_blank"><i class="fa-brands fa-spotify"></i></a></li>
+            <li><a href="https://github.com/wxrayut" target="_blank"><i class="fa-brands fa-github"></i></a></li>
+            <li><a href="https://www.youtube.com/@wxr4yutxxxxxxxxxxxxxx" target="_blank"><i class="fa-brands fa-youtube"></i></a></li>
+            <li><a href="https://discord.gg/VZVP8UeKFZ" target="_blank"><i class="fa-brands fa-discord"></i></a></li>
+        </ul>
+        <p>COPYRIGHT 2023 WXR4YUT | ALL RIGHTS RESERVED.</p>    
+    </footer>
+
+    <script src="script/script.js"></script>
+
+    <script>
+
+
+    </script>
+</body>
+</html>
+
+
