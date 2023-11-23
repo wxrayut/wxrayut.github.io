@@ -59,6 +59,11 @@ let playlist = [
         source: "script/playlist/Zack Tabudlo - Turn Back Time ft. Violette Wautier.mp3"
     },
     {
+        title: "everything hits me at once",
+        artist: "vaultboy",
+        source: "script/playlist/vaultboy - everything hits me at once.mp3"
+    },
+    {
         title: "Marvin Gaye",
         artist: "Charlie Puth",
         source: "script/playlist/Charlie Puth - Marvin Gaye.mp3"
